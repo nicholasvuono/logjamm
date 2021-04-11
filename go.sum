@@ -4,8 +4,10 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/h2non/filetype v1.1.0/go.mod h1:319b3zT68BvV+WRj7cwy856M2ehB3HqNOt6sy1HndBY=
-github.com/logjamdev/http-batch v0.0.0-20210411050303-28b603cfba81 h1:WFheYhzl8q9kHuvgufLO6TQtjI/8zk1CC8h/B+Z1MrE=
-github.com/logjamdev/http-batch v0.0.0-20210411050303-28b603cfba81/go.mod h1:n4Z2IV55tJqGrRTT6lYa5Capu1fuXMfa653Chn/B+Rk=
+github.com/logjammdev/http-batch v0.0.0-20210411090301-47d8fffff3e5 h1:QuMdJFINZC6G12LS372nFtYuAE/+y02+AonmO0qnHHU=
+github.com/logjammdev/http-batch v0.0.0-20210411090301-47d8fffff3e5/go.mod h1:r1/AtJMxlCFlYv0X+y+u4Bxrklw7GKeGsBsSJK8vJmg=
+github.com/logjammdev/utils v0.0.0-20210411083652-15592b4f0ac1 h1:J3Kp139FecsHJMkDYbPVFDgKimvwPtcJg1bn04FYhts=
+github.com/logjammdev/utils v0.0.0-20210411083652-15592b4f0ac1/go.mod h1:n/I07zVwL/6R4PnFbmVaVaNdMXRqt8T4ByRfnKRMlrw=
 github.com/mxschmitt/playwright-go v0.1100.0 h1:GkI1TuXU50GlA988VqqdoTObLzi2bbeT8RmLtcxKQrc=
 github.com/mxschmitt/playwright-go v0.1100.0/go.mod h1:a3SD3v+56XMA0sDDxXJXy+QGnCfXrNZ/+4gwR5ioSgU=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=

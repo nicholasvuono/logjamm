@@ -1,9 +1,10 @@
-package logjam
+package logjamm
 
 import (
 	"errors"
 	"time"
 
+	"github.com/logjammdev/utils"
 	"github.com/mxschmitt/playwright-go"
 )
 
@@ -17,7 +18,7 @@ func WebTest(options Options, test Test) []map[string]int64 {
 		results = append(results, webTestDuration(options.Duration, test))
 	} else {
 		err := errors.New("error options: duration and iteration cannot be used at the same time")
-		explain(err)
+		utils.Explain(err)
 	}
 	return results
 }

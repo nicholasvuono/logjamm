@@ -1,4 +1,4 @@
-package logjam
+package logjamm
 
 import (
 	"errors"
@@ -6,7 +6,8 @@ import (
 	"sync"
 	"time"
 
-	httpbatch "github.com/logjamdev/http-batch"
+	httpbatch "github.com/logjammdev/http-batch"
+	"github.com/logjammdev/utils"
 )
 
 //Request struct mimicking the one found in the wreckhttp library
@@ -26,7 +27,7 @@ func Batch(options Options, requests []Request) []string {
 		concurrentBatchDuration(options, requests)
 	} else {
 		err := errors.New("error Options: Duration and Iteration cannot be used at the same time")
-		explain(err)
+		utils.Explain(err)
 	}
 	return responses
 }
@@ -62,6 +63,6 @@ func concurrrentBatchIterations(options Options, requests []Request) {
 func sendBatch(requests []Request) {
 	defer wg.Done()
 	batch, err := httpbatch.Batch(requests)
-	explain(err)
+	utils.Explain(err)
 	responses = append(responses, fmt.Sprintf("%v", batch.Send()))
 }

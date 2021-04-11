@@ -1,4 +1,4 @@
-package logjam
+package logjamm
 
 //Options struct specifies the number of virtual users, test duration, or request iterations. In other words, the load tests cofiguration options.
 type Options struct {
