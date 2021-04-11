@@ -84,7 +84,7 @@ func main() {
 
 	fmt.Println(responses)
 	fmt.Println(timings)
-}```
+}
 ```
 
 ## Simplest Working Example (Just Batch Request Functionality)
@@ -128,7 +128,7 @@ func main() {
 	responses := logjamm.Batch(options, requests)
 
 	fmt.Println(responses)
-}```
+}
 ```
 
 ## Simplest Working Example (Just Web Test Functionality)
@@ -179,7 +179,7 @@ func main() {
 	responses, timings := logjamm.WebTest(options, test)
 
 	fmt.Println(timings)
-}```
+}
 ```
 
 
