@@ -10,7 +10,7 @@ import (
 	"github.com/logjammdev/utils"
 )
 
-//Request struct mimicking the one found in the wreckhttp library
+//Request struct mimicking the one found in the httpbatch library
 type Request = httpbatch.Request
 
 //Global wait group for go routines within this test
