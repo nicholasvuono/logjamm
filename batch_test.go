@@ -1,4 +1,4 @@
-package logjam
+package logjamm
 
 import (
 	"fmt"
